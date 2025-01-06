@@ -30,7 +30,7 @@ export default function RootLayout({
         <Providers>
           <TopNav />
           {/* <h1 className="text-2xl">app/layout.tsx</h1> */}
-          {children}
+          <main className="container mx-auto">{children}</main>
         </Providers>
       </body>
     </html>
